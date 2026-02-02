@@ -1,0 +1,26 @@
+# Build artifacts
+build/
+lib/
+bin/
+
+# CUDA intermediate files
+*.o
+*.ptx
+*.cubin
+*.sass
+
+# Editor
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Python (for benchmark scripts)
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
