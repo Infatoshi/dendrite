@@ -1,5 +1,9 @@
 # Dendrite
 
+<p align="center">
+  <img src="dend.jpg" width="600" alt="Dendrite">
+</p>
+
 GPU-accelerated CUDA kernels for lithium-ion battery simulation.
 
 **133x faster than NumPy. 197x faster than naive GPU code.**
