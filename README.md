@@ -1,10 +1,15 @@
 # Dendrite
 
 <p align="center">
-  <img src="dend.jpg" width="600" alt="Dendrite">
+  <img src="dendrite.gif" width="800" alt="Dendrite - GPU Battery Simulation">
 </p>
 
 GPU-accelerated CUDA kernels for lithium-ion battery simulation.
+
+**What these kernels do:**
+- **Spherical diffusion** - Lithium transport inside electrode particles (fast charging bottleneck)
+- **Butler-Volmer** - Electrochemical kinetics at particle surfaces
+- **2D thermal** - Heat transport for thermal management
 
 **133x faster than NumPy. 197x faster than naive GPU code.**
 
